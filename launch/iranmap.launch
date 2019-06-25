@@ -1,0 +1,12 @@
+<launch>
+
+
+   <node pkg="turtlesim" name="turtle" type="turtlesim_node"/>
+
+   <node pkg="turtlesim_iranmap" name="init" type="initial_pos" output="screen"/>
+  
+   <node pkg="turtlesim_iranmap" name="go" type="gotogoal.py" output="screen"/>
+
+
+
+</launch>
